@@ -10,10 +10,9 @@ int main(void)
 {
 	char i;
 
-	for (i = 'a'; 'a' <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
-		break;
 	}
 	return (0);
 }
