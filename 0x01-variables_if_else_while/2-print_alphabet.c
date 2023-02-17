@@ -13,6 +13,7 @@ int main(void)
 	for (i = 'a'; 'a' <= 'z'; i++)
 	{
 		putchar(i);
+		break;
 	}
 	return (0);
 }
